@@ -67,6 +67,8 @@ def SHA256FileOptions():
         
     
 
+
+#this method will resolve the sha hash of the associated file.
 def getHash(file):
     
     digest = hashes.Hash(hashes.SHA256(), backend=default_backend())
